@@ -30,4 +30,4 @@ def rank_products_sasta(df):
 
 # Get the ranked results
 ranked_results = rank_products_sasta(df)
-print(ranked_results[['title', 'price', 'rating', 'final_score']])
+print(ranked_results[['title', 'price', 'rating', 'final_score']]
